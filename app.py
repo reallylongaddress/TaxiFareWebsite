@@ -10,8 +10,6 @@ def run_query(get_params):
     fare_estimate = round(res.json().get('fare'), 2)
     st.write('fare_estimate:', fare_estimate)
 
-
-
 pickup_date = st.date_input('Pickup date:', datetime.date(2019, 7, 6))
 pickup_time = st.time_input('Pickup time: ', datetime.time(8, 45))
 pickup_lat = st.text_input('Pickup Latitude', '40.775069')
