@@ -38,3 +38,7 @@ st.button('Run Prediction', on_click=run_query(get_params))
 # st.write('The current dropoff latitude is: ', dropoff_lat)
 # st.write('The current dropoff Longitude is: ', dropoff_lon)
 # st.write('Number passengers:', passenger_count)
+
+'''
+https://dbd-taxifarewebsite.herokuapp.com/ | https://git.heroku.com/dbd-taxifarewebsite.git
+'''
